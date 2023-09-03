@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b79c38e-51a9-4971-ac29-d1e79bb317c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictureOfSomething.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strelnikov/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strelnikov/MainFrame.java" afterDir="false" />
+    <list default="true" id="9b79c38e-51a9-4971-ac29-d1e79bb317c1" name="Changes" comment="DrawPanel and DrawUtils added">
+      <change afterPath="$PROJECT_DIR$/src/strelnikov/DrawPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strelnikov/DrawUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strelnikov/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/MainFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +22,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1778c235-f1cc-4b16-bf6f-b0e8a3b7f0d4" />
+        <option name="url" value="https://github.com/maximka48-yl/picture.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2UtYTV2m40muW105hf8dRpX6XNs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,6 +47,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strelnikov.Main" />
+      <module name="pictureOfSomething" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strelnikov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +76,19 @@
       <option name="presentableId" value="Default" />
       <updated>1693760363799</updated>
     </task>
+    <task id="LOCAL-00001" summary="Window added">
+      <created>1693762505322</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693762505322</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Window added" />
+    <MESSAGE value="DrawPanel and DrawUtils added" />
+    <option name="LAST_COMMIT_MESSAGE" value="DrawPanel and DrawUtils added" />
   </component>
 </project>
