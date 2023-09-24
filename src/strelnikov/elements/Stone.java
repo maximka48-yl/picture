@@ -14,8 +14,6 @@ public class Stone {
     private boolean outline;
 
     /**
-     * *
-     *
      * @param x0
      * @param y0
      * @param width

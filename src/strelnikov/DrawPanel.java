@@ -1,6 +1,6 @@
 package strelnikov;
 
-import strelnikov.elements.Stone;
+import strelnikov.elements.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,7 +21,7 @@ public class DrawPanel extends JPanel {
                     lastWidth, random.nextInt(100, 180),
                     random.nextInt(3, 6),
                     1 / (double) random.nextInt(2, 3),
-                    new Color(70, 70, 70, 255), true);
+                    Background.THIRD_LAYER_COLOR, true);
             stone.draw(g);
         }
 
@@ -31,7 +31,7 @@ public class DrawPanel extends JPanel {
                     lastWidth, random.nextInt(140, 220),
                     random.nextInt(5, 7),
                     1 / (double) random.nextInt(2, 3),
-                    new Color(110, 110, 110, 255), true);
+                    Background.SECOND_LAYER_COLOR, true);
             stone.draw(g);
         }
 
@@ -41,7 +41,7 @@ public class DrawPanel extends JPanel {
                     lastWidth, random.nextInt(180, 260),
                     random.nextInt(5, 8),
                     1 / (double) random.nextInt(2, 3),
-                    new Color(150, 150, 150, 255), true);
+                    Background.FIRST_LAYER_COLOR, true);
             stone.draw(g);
         }
 
