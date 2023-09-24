@@ -13,6 +13,9 @@ public class DrawPanel extends JPanel {
     @Override
     public void paint(Graphics g) {
         super.paint(g);
+
+        Background.draw(g);
+
         Random random = new Random();
         int lastWidth;
         for (int i = random.nextInt(-10, 5); i < 1200; i = random.nextInt(i + lastWidth - 15, i + lastWidth + 5)) {
