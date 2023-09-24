@@ -9,24 +9,36 @@ public class Stone {
     private int height;
     private int amplitude;
     private double division;
-    private double k;
+    private Color color;
+    private int k;
+    private boolean outline;
 
     /**
      * *
+     *
      * @param x0
      * @param y0
      * @param width
      * @param height
-     * @param amplitude
      * @param division should be between 0 & 1: 0 < division < 1
      */
-    public Stone(int x0, int y0, int width, int height, int amplitude, double division) {
+    public Stone(int x0, int y0, int width, int height, int amplitude, double division, Color color, boolean flip, boolean outline) {
         this.x0 = x0;
         this.y0 = y0;
         this.width = width;
         this.height = height;
         this.amplitude = amplitude;
         this.division = division;
+        this.color = color;
+        this.k = flip ? -1 : 1;
+        this.outline = outline;
+    }
+    public Stone(int x0, int y0, int width, int height, int amplitude, double division, Color color, boolean flip) {
+        this(x0, y0, width, height, amplitude, division, color, flip, false);
+    }
+
+    public Stone(int x0, int y0, int width, int height, int amplitude, double division, Color color) {
+        this(x0, y0, width, height, amplitude, division, color, false);
     }
 
     public void draw(Graphics g) {
@@ -34,15 +46,18 @@ public class Stone {
         Polygon p = new Polygon();
         for (int i = 0; i < width * division; i++) {
             p.addPoint(x0 + i,
-                    (int) (-Math.sin(Math.PI * (i / (width * division / amplitude))) * amplitude - (height / (division * width)) * (i) + y0));
+                    (int) (-k * Math.sin(Math.PI * (i / (width * division / amplitude))) * amplitude - k * (height / (division * width)) * (i) + (k == -1 ? 0 : y0)));
         }
         for (int i = (int) (width * division); i <= width; i++) {
             p.addPoint(x0 + i,
-                    (int) (-Math.sin(Math.PI * (i / (width * (1 - division) / amplitude))) * amplitude + (height / ((1 - division) * width)) * (i) - height / (1 - division) + y0));
+                    (int) (-k * Math.sin(Math.PI * (i / (width * (1 - division) / amplitude))) * amplitude + k * (height / ((1 - division) * width)) * (i) - k * height / (1 - division) + (k == -1 ? 0 : y0)));
         }
-        /*System.out.println((Math.sin(amplitude * width / k) * amplitude + y0 - height / (division - 1) + (height / ((division - 1) * width / division)) * width));
-        *graphics.setColor(Color.GRAY);
-        *graphics.fill(p);*/
+        graphics.setColor(color);
+        graphics.fill(p);
         graphics.draw(p);
+        if (outline) {
+            graphics.setColor(Color.BLACK);
+            graphics.draw(p);
+        }
     }
 }
