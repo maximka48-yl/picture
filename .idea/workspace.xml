@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b79c38e-51a9-4971-ac29-d1e79bb317c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/strelnikov/elements/SwordInStone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strelnikov/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/DrawPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strelnikov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strelnikov/elements/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/elements/Background.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strelnikov/elements/Stone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/elements/Stone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695569062721</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="background generates in Background.java&#10;background colors are also in Background.java">
+      <created>1695587669049</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695587669049</updated>
+    </task>
+    <task id="LOCAL-00008" summary="background draws in DrawPanel.java">
+      <created>1695587766716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695587766716</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +143,8 @@
     <MESSAGE value="Added Stone" />
     <MESSAGE value="Update Stone painting and Add background stalagmite generation y0 issue not fixed" />
     <MESSAGE value="fix y0 issue&#10;add stalagmite generation&#10;create background class" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix y0 issue&#10;add stalagmite generation&#10;create background class" />
+    <MESSAGE value="background generates in Background.java&#10;background colors are also in Background.java" />
+    <MESSAGE value="background draws in DrawPanel.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="background draws in DrawPanel.java" />
   </component>
 </project>

@@ -48,6 +48,9 @@ public class DrawPanel extends JPanel {
             stone.draw(g);
         }
 
+        SwordInStone sis = new SwordInStone(650, 300);
+        sis.draw(g);
+
         //Stone stone_1 = new Stone(0, 800, 200, 800, 10, 1/2.0, Color.gray,true, true);
     }
 }
