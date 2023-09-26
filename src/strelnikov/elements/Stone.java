@@ -44,11 +44,13 @@ public class Stone {
         Polygon p = new Polygon();
         for (int i = 0; i < width * division; i++) {
             p.addPoint(x0 + i,
-                    (int) (-k * Math.sin(Math.PI * (i / (width * division / amplitude))) * amplitude - k * (height / (division * width)) * (i) + y0));
+                    (int) (-k * Math.sin(Math.PI * (i / (width * division / amplitude))) * amplitude
+                            - k * (height / (division * width)) * (i) + y0));
         }
         for (int i = (int) (width * division); i <= width; i++) {
             p.addPoint(x0 + i,
-                    (int) (-k * Math.sin(Math.PI * (i / (width * (1 - division) / amplitude))) * amplitude + k * (height / ((1 - division) * width)) * (i) - k * height / (1 - division) + y0));
+                    (int) (-k * Math.sin(Math.PI * (i / (width * (1 - division) / amplitude))) * amplitude
+                            + k * (height / ((1 - division) * width)) * (i) - k * height / (1 - division) + y0));
         }
         graphics.setColor(color);
         graphics.fill(p);
