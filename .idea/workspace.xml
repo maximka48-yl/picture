@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b79c38e-51a9-4971-ac29-d1e79bb317c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strelnikov/elements/SwordInStone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strelnikov/elements/ProphecyStone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strelnikov/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/DrawPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strelnikov/elements/SwordInStone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/elements/SwordInStone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695587766716</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add sword in stone">
+      <created>1695683743874</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695683743874</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,6 +153,7 @@
     <MESSAGE value="fix y0 issue&#10;add stalagmite generation&#10;create background class" />
     <MESSAGE value="background generates in Background.java&#10;background colors are also in Background.java" />
     <MESSAGE value="background draws in DrawPanel.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="background draws in DrawPanel.java" />
+    <MESSAGE value="add sword in stone" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sword in stone" />
   </component>
 </project>

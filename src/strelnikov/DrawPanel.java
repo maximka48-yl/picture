@@ -38,6 +38,12 @@ public class DrawPanel extends JPanel {
             stone.draw(g);
         }
 
+        SwordInStone sis = new SwordInStone(650, 300);
+        sis.draw(g);
+
+        ProphecyStone ps = new ProphecyStone(350, 350);
+        ps.draw(g);
+
         for (int i = random.nextInt(0, 25); i < 1200; i = random.nextInt(i + lastWidth - 5, i + lastWidth + 25)) {
             lastWidth = random.nextInt(80, 100);
             Stone stone = new Stone(i, 25,
@@ -47,9 +53,6 @@ public class DrawPanel extends JPanel {
                     Background.FIRST_LAYER_COLOR, true);
             stone.draw(g);
         }
-
-        SwordInStone sis = new SwordInStone(650, 300);
-        sis.draw(g);
 
         //Stone stone_1 = new Stone(0, 800, 200, 800, 10, 1/2.0, Color.gray,true, true);
     }

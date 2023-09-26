@@ -77,5 +77,13 @@ public class SwordInStone {
 
         graphics2D.setColor(new Color(238, 168, 22));
         graphics2D.fillOval(x0 + 87, y0 + STONE_Y0 - STONE_HEIGHT * 9 / 5 - 13, 26, 26);
+
+        polygon = new Polygon();
+        polygon.addPoint(x0 + 100, y0 - STONE_HEIGHT * 2);
+        polygon.addPoint(x0 - 20, y0 + STONE_Y0 + 20);
+        polygon.addPoint(x0 + 220, y0 + STONE_Y0 + 20);
+        graphics2D.setPaint(new GradientPaint(x0 + 100, y0 - STONE_HEIGHT, new Color(253, 215, 164, 0),
+                x0 + 100, y0, new Color(253, 215, 164, 56)));
+        graphics2D.fill(polygon);
     }
 }
