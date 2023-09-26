@@ -12,8 +12,7 @@ public class ProphecyStone {
         this.y0 = y0;
     }
 
-    public void draw(Graphics g) {
-        Graphics2D graphics2D = (Graphics2D) g;
+    public void draw(Graphics2D graphics2D) {
         Polygon polygon = new Polygon();
         polygon.addPoint(x0, y0 + STONE_Y0);
         polygon.addPoint(x0, y0 + STONE_Y0 / 3);

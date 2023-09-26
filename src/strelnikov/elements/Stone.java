@@ -39,8 +39,7 @@ public class Stone {
         this(x0, y0, width, height, amplitude, division, color, false);
     }
 
-    public void draw(Graphics g) {
-        Graphics2D graphics = (Graphics2D) g;
+    public void draw(Graphics2D graphics2D) {
         Polygon p = new Polygon();
         for (int i = 0; i < width * division; i++) {
             p.addPoint(x0 + i,
@@ -52,12 +51,12 @@ public class Stone {
                     (int) (-k * Math.sin(Math.PI * (i / (width * (1 - division) / amplitude))) * amplitude
                             + k * (height / ((1 - division) * width)) * (i) - k * height / (1 - division) + y0));
         }
-        graphics.setColor(color);
-        graphics.fill(p);
-        graphics.draw(p);
+        graphics2D.setColor(color);
+        graphics2D.fill(p);
+        graphics2D.draw(p);
         if (outline) {
-            graphics.setColor(Color.BLACK);
-            graphics.draw(p);
+            graphics2D.setColor(Color.BLACK);
+            graphics2D.draw(p);
         }
     }
 }

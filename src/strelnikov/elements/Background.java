@@ -7,8 +7,7 @@ public class Background {
     public static final Color THIRD_LAYER_COLOR = new Color(70, 70, 70, 255);
     public static final Color SECOND_LAYER_COLOR = new Color(100, 100, 100, 255);
     public static final Color FIRST_LAYER_COLOR = new Color(150, 150, 150, 255);
-    public static void draw(Graphics g) {
-        Graphics2D graphics2D = (Graphics2D) g;
+    public static void draw(Graphics2D graphics2D) {
         graphics2D.setColor(BACKGROUND_COLOR);
         graphics2D.fillRect(0, 0, 1200, 800);
 

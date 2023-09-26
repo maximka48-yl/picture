@@ -7,7 +7,6 @@ public class SwordInStone {
     private int y0;
 
     private  int stoneWidth;
-
     private  int stoneHeight;
     private  int stoneLowestY;
 
@@ -19,8 +18,7 @@ public class SwordInStone {
         this.stoneLowestY = stoneLowestY;
     }
 
-    public void draw(Graphics g) {
-        Graphics2D graphics2D = (Graphics2D) g;
+    public void draw(Graphics2D graphics2D) {
         Polygon polygon = new Polygon();
         polygon.addPoint(x0, y0 + stoneLowestY);
         polygon.addPoint(x0 + stoneWidth * 3 / 20, y0 + stoneLowestY - stoneHeight * 2 / 3);

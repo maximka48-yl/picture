@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b79c38e-51a9-4971-ac29-d1e79bb317c1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strelnikov/Cave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strelnikov/DrawPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/DrawPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strelnikov/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strelnikov/elements/Background.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/elements/Background.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strelnikov/elements/ProphecyStone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/elements/ProphecyStone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strelnikov/elements/Stone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/elements/Stone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strelnikov/elements/SwordInStone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strelnikov/elements/SwordInStone.java" afterDir="false" />
     </list>
@@ -148,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695722428388</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="move generation to DrawPanel constructor&#10;customisable SwordInStone">
+      <created>1695727137795</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695727137795</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -162,6 +172,7 @@
     <MESSAGE value="background draws in DrawPanel.java" />
     <MESSAGE value="add sword in stone" />
     <MESSAGE value="add prophecy stone&#10;add light to sword in stone" />
-    <option name="LAST_COMMIT_MESSAGE" value="add prophecy stone&#10;add light to sword in stone" />
+    <MESSAGE value="move generation to DrawPanel constructor&#10;customisable SwordInStone" />
+    <option name="LAST_COMMIT_MESSAGE" value="move generation to DrawPanel constructor&#10;customisable SwordInStone" />
   </component>
 </project>
